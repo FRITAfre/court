@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FEDERAL SUPREME COURT OF ETHIOPIA</title>
+	<link rel="stylesheet" type="text/css" href="astyle.css">
+	<script type="text/javascript" src="applycase.js"></script>
+</head>
+<body>
+	<header>
+		<div class="icon">
+				<h2 class="logo"> <img src="picf3.jpg" height="70px"> <span id="green"> FEDERAL SUP</span> <span id="yellow"> REME COURT </span> 
+					<span id="red"> OF ETHIOPIA </span> </h2>
+		</div>
+	</header>
+		<div id="div">
+			<h1>CASE REGISTRATION FORM </h1>
+		</div>
+		<div class="container">
+		<form action="applycase.php" method="POST" name="apply" style="width:100%;">
+			<div id="div1">
+				Plantiff Id Number: <br>
+				<input type="text" name="plantiffid" > <br>
+				Plantiff Name: <br>
+				<input type="text" name="plantiffname" class="name"> <br>
+				Plantiff Address: <br>
+				Woreda: <br><input type="number" name="plantiffworeda" class="name"> <br>
+				City: <br><input type="text" name="plantiffcity" class="name"> <br>
+				Region: <br><select name="plantiffregion">
+					<option value="">-select region-</option>
+					<option value="Tigiray">Tigray</option>
+					<option value="Amhara">Amhara</option>
+					<option value="Afar">Afar</option>
+					<option value="Oromia">Oromia</option>
+					<option value="SNNP">SNNP</option>
+					<option value="Sidama">Sidama</option>
+					<option value="Somali">Somali</option>
+					<option value="Gambela">Gambela</option>
+					<option value="Harari">Harari</option>
+					<option value="Benishangul">Benishangul</option>
+					<option value="Addis Ababa">Addis Ababa</option>
+					<option value="Dire Dawa">Dire Dawa</option>
+				</select><br>
+				Plantiff Email: <br>
+				<input type="email" name="plantiffemail"> <br>
+				Plantiff Phone: <br>
+				<input type="text" name="plantiffphone"> <br>
+				Lawyer/Prosecutor Name: <br>
+				<input type="text" name="lawyer/prosecutor" class="name"> <br>
+		    </div>
+		    <div id="div2">
+				Defendant Name: <br>
+				<input type="text" name="defendantname" class="name"> <br>
+				Defendant Address: <br>
+				Woreda: <br><input type="number" name="defendantworeda" class="name"> <br>
+				City: <br><input type="text" name="defendantcity" class="name"> <br>
+				Region: <br><select name="defendantregion">
+					<option value="">-select region-</option>
+					<option value="Tigiray">Tigray</option>
+					<option value="Amhara">Amhara</option>
+					<option value="Afar">Afar</option>
+					<option value="Oromia">Oromia</option>
+					<option value="SNNP">SNNP</option>
+					<option value="Sidama">Sidama</option>
+					<option value="Somali">Somali</option>
+					<option value="Gambela">Gambela</option>
+					<option value="Harari">Harari</option>
+					<option value="Benishangul">Benishangul</option>
+					<option value="Addis Ababa">Addis Ababa</option>
+					<option value="Dire Dawa">Dire Dawa</option>
+				</select><br>
+				Type of the case: <br>
+				<input type="radio" name="casetype" value="Criminal"> Criminal <br>
+				<input type="radio" name="casetype" value="Civil">  Civil <br>
+				File: <br>
+				<input type="file" name="applicationletter"> <br> <br>
+				<input type="submit" value="Submit" name="submit"> 
+				<input type="reset" value="Clear" name="clear"> 
+			</div>
+		</form>
+		<img src="pic4.jpg" id="img">
+	</div>
+	<!--<footer>
+		<div class="footer">
+			<table>
+				<tr>
+					<td>
+						<h3> Quick Links </h3>
+						<ul>
+							<li class="active"> <a href="index.html">Home</a></li>
+							<li> <a href="#">About Us</a></li>
+							<li> <a href="eservice.html">E-Services</a></li>
+							<li> <a href="#">News</a></li>
+							<li> <a href="#">Comment</a></li>
+						</ul>
+					</td>
+					<td>
+						 <h3 class="add"> Address</h3>
+						<ul class="add">
+							<li>Phone: 0112374023</li>
+							<li>Email: federalsupremecourtet@gmail.com </li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<div class="footer_bottom">
+				<p class="copyright"> <i>&copy FEDERAL SUPREME COURT OF ETHIOPIA </i></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body{
+	background: url('pic1.jpg');
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 40px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.icon{
+	width: 900px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: orange;
+	font-size: 35px;
+	font-family: Bradley hand;
+	padding-left: 20px;
+	float: left;
+	padding-top: 3px;
+}
+#green{color: green;}
+#yellow{color: yellow;}
+#red{color: red;}
+hr{
+	color: orange;
+	margin-top: 80px;
+}
+.app{
+	width: 800px;
+	color: orange;
+	margin-top: 80px;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 15px 15px 0px 0px;
+}
+.main{
+	background-color: rgb(47, 79, 79);
+	width: 800px;
+	margin: auto;
+}
+form{
+	padding: 10px;
+}
+.name{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 200px;
+	color: black;
+	font-size: 16px;
+	font-weight: 700px;
+	position: relative;
+	left: 200px;
+	top: -29px;
+	border-radius: 6px;
+	line-height: 30px;
+	padding: 0 22px;
+}
+.bt{
+	margin-left: 25px;
+	margin-top: 30px;
+	width: 100px;
+	color: black;
+	font-size: 16px;
+	font-weight: 700px;
+	position: relative;
+	left: 200px;
+	top: -29px;
+	border-radius: 6px;
+	line-height: 30px;
+	padding: 0 22px;
+	background-color: orange;
+}
+.footer{
+	margin-top: 5px;
+	background-image: url('qqq.jpg');
+	margin-bottom: 5px;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+.footer ul{
+	list-style: none;
+}
+.footer table{
+	position: relative;
+  	color: white;
+}
+.footer td{
+	text-align: center;
+	padding-left: 300px;
+}
+.copyright{
+	text-align: center;
+	color: white;
+}
+.add{
+	text-align: left;
+	padding-left: 180px;
+}

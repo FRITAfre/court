@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="commentstyle.css">
+	<script type="text/javascript">
+		function validateEmail()
+		{
+			let mail ="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/";
+			let email = document.getElementById(email).value;
+			if(!mail.test(email))
+   		   {
+            	alert( " Length of email cannot be less than 6 or email has a wrong format");
+            	document.getElementById(email).focus();
+            	return false;
+        	 }
+			return true;	 
+		} 
+	</script>
+	<title>Comment</title>
+</head>
+<body>
+	<div class="icon">
+		<h2 class="logo"> <img src="picf3.jpg" height="70px"> <span id="green"> FEDERAL SUP</span> <span id="yellow"> REME COURT </span> <span id="red"> OF ETHIOPIA </span> </h2>
+	</div><br>
+       <hr>
+	<div class="app">
+		<h1>Comment</h1>
+	</div>
+	<div class="main">
+		<form action="comment.php" method="post" onsubmit="return (validateEmail());">
+			<div id="name">
+				<h2 class="pemail"> Plantiff Email: </h2>
+				<input type="text" name="plantiffemail" class="name" id="email" required>
+				<h2 class="pemail"> Comment: </h2>
+				<textarea id="txt" name="comment" required>
+				</textarea><br><br>
+				<input type="submit" value="Send" name="submit" class="bt"> 
+				<input type="reset" value="Clear" name="clear" class="bt"> 
+			</div>
+		</form>
+	</div>
+	<div class="footer">
+			<table>
+				<tr>			
+					<td>
+						<h3> Quick Links </h3>
+						<ul>
+							<li> <a href="index.html">Home</a></li>
+							<li> <a href="eservice.html">E-Service</a></li>
+							<li> <a href="comment.html">Comment</a></li>
+						</ul>
+					</td>
+					<td>
+						 <h3 class="add"> Address</h3>
+						<ul class="add">
+							<li>Phone: 0112374023</li>
+							<li>Email: federalsupremecourtet@gmail.com </li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<div class="footer_bottom">
+				<p class="copyright"> <i>&copy FEDERAL SUPREME COURT OF ETHIOPIA </i></p>
+			</div>
+		</div>
+</body>
+</html>

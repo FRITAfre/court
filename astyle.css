@@ -1,0 +1,100 @@
+.icon{
+	background: url('h2.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	float: left;
+	height: 400px;
+	margin-bottom: 100px;
+}
+.logo{
+	color: orange;
+	font-size: 150px;
+	font-family: Bradley hand;
+	padding-left: 350px;
+	float: left;
+	padding-top: 100px;
+}
+#green{color: green;}
+#yellow{color: yellow;}
+#red{color: red;}
+#div{
+	font-size: 50px;
+	font-family:Arial;
+	font-weight: 500px;
+	text-align: center;
+	position: relative;
+}
+.container{
+	max-width: 700px;
+	width: 100%;
+	background: yellow;
+	padding: 25px 30px;
+	border-radius: 5px;
+	justify-content: space-between;
+}
+#div1{
+	font-size: 30px;
+	float: left;
+	padding-left: 300px;
+}
+#div2{
+	float: left;
+	font-size: 30px;
+	padding-left: 300px;
+}
+#img{
+	float: right;
+	width: 500px;
+	height: 500px;
+	margin-right: 500px;
+}
+
+
+/*fieldset{
+	height: auto;
+	background: yellow;
+
+}
+
+
+
+input  {
+  padding:10px;
+  margin:10px 0; 
+  font-family:inherit;
+  font-size: inherit;
+}
+select {
+  width: 100%;
+  padding:10px;
+  border-radius:10px;
+}
+
+.footer{
+	margin-top: -35px;
+	background-image: url('foot.jpg');
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+.footer ul{
+	list-style: none;
+}
+.footer table{
+	position: relative;
+  	color: white;
+}
+.footer td{
+	text-align: center;
+	padding-left: 250px;
+}
+.copyright{
+	text-align: center;
+	color: white;
+}
+.add{
+	text-align: left;
+	padding-left: 180px;
+}

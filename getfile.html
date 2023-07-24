@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="getstyle.css">
+	<script type="text/javascript">
+		function validateEmail()
+		{
+			let mail ="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/";
+			let email = document.getElementById(email).value;
+			if(!mail.test(email))
+   		   {
+            	alert( " Length of email cannot be less than 6 or email has a wrong format");
+            	document.getElementById(email).focus();
+            	return false;
+        	 }
+			return true;	 
+		} 
+	</script>
+	<title>Get file</title>
+</head>
+<body>
+	<div class="icon">
+		<h2 class="logo"> <img src="picf3.jpg" height="70px"> <span id="green"> FEDERAL SUP</span> <span id="yellow"> REME COURT </span> <span id="red"> OF ETHIOPIA </span> </h2>
+	</div><br>
+       <hr>
+	<div class="app">
+		<h1>Get Your File</h1>
+	</div>
+	<div class="main">
+		<form action="getfile.php" method="post" enctype="multipart-form/data" onsubmit="return(validateEmail());">
+			<div id="name">
+				<h2 class="case"> File Type: </h2>
+				<h3 style="padding-left: 150px;"> Applied Case </h3>
+				<input type="radio" name="filetype" value="1" class="name"  required> 
+				<h3 style="padding-left: 150px;"> Appealed Case </h3>
+				<input type="radio" name="filetype" value="2" class="name" required> 
+				<h2 class="pemail"> Plantiff Email: </h2>
+				<input type="text" name="plantiffemail" class="name" id="email" required><br><br>
+				<input type="submit" value="Get File" name="submit" class="bt"> 
+				<input type="reset" value="Clear" name="clear" class="bt"> 
+			</div>
+		</form>
+	</div>
+	<div class="footer">
+			<table>
+				<tr>			
+					<td>
+						<h3> Quick Links </h3>
+						<ul>
+							<li> <a href="index.html">Home</a></li>
+							<li> <a href="eservice.html">E-service</a></li>
+						</ul>
+					</td>
+					<td>
+						 <h3 class="add"> Address</h3>
+						<ul class="add">
+							<li>Phone: 0112374023</li>
+							<li>Email: federalsupremecourtet@gmail.com </li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<div class="footer_bottom">
+				<p class="copyright"> <i>&copy FEDERAL SUPREME COURT OF ETHIOPIA </i></p>
+			</div>
+		</div>
+</body>
+</html>
+
+				
+				 
+				
